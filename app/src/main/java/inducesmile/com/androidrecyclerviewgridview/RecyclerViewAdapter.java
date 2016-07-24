@@ -20,10 +20,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewHolder
         this.itemList = itemList;
         this.context = context;
         surfaceView = new SurfaceView(context);
-        //FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(700, 300);
+        FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(300, 300);
 
-        //surfaceView.setLayoutParams(layoutParams);
-        //surfaceView.setZOrderOnTop(true);
+        surfaceView.setLayoutParams(layoutParams);
+        surfaceView.setZOrderOnTop(true);
     }
 
     @Override
